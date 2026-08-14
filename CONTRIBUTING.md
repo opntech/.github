@@ -19,7 +19,7 @@ Binding for all contributions. Based on the [OWASP Secure Coding Practices Quick
 
 1. Every change to production code is made via pull request with review.
 2. CI must be green: SemGrep SAST/SCA with no open findings of severity High or above.
-3. No secrets in code, configuration, or logs (GitHub Secret Protection is active). Rotate exposed secrets immediately and report the incident internally.
+3. No secrets in code, configuration, or logs. Rotate exposed secrets immediately and report the incident internally.
 4. Data access must always be tenant-bound (tenant separation).
 5. No unmodified production data in development or test environments.
 6. New dependencies: use a current version, no known CVEs of severity High or above, license checked.
