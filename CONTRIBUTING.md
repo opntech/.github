@@ -23,4 +23,3 @@ Binding for all contributions. Based on the [OWASP Secure Coding Practices Quick
 4. Data access must always be tenant-bound (tenant separation).
 5. No unmodified production data in development or test environments.
 6. New dependencies: use a current version, no known CVEs of severity High or above, license checked.
-7. Information-security requirements are assessed per epic (relevance check against the base catalog).
