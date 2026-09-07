@@ -1,0 +1,3 @@
+# Entire repo is ops surface — owned by the platform team.
+# `*`, not `/`: GitHub matches no files at all against a bare `/`.
+* @opntech/platform
